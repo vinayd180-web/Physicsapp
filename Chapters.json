@@ -1,0 +1,300 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "name": "Physical World & Measurement",
+      "topics": ["Units", "Dimensions", "Error Analysis", "Significant Figures"],
+      "theory": "Physics is the study of nature and natural phenomena. SI system has 7 base units: meter (length), kilogram (mass), second (time), ampere (current), kelvin (temperature), candela (luminous intensity), mole (amount of substance).",
+      "formulas": [
+        {"name": "Dimensional Formula", "formula": "[MᵃLᵇTᶜ]"},
+        {"name": "Percentage Error", "formula": "% Error = (Error/Measured Value) × 100"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kinematics",
+      "topics": ["Motion in 1D", "Motion in 2D", "Projectile Motion", "Relative Motion"],
+      "theory": "Kinematics deals with motion without considering forces. For uniform acceleration: v = u + at, s = ut + ½at², v² = u² + 2as. In projectile motion, range R = u²sin(2θ)/g, max height H = u²sin²θ/(2g). Time of flight T = 2usinθ/g.",
+      "formulas": [
+        {"name": "First Equation", "formula": "v = u + at"},
+        {"name": "Second Equation", "formula": "s = ut + ½at²"},
+        {"name": "Third Equation", "formula": "v² = u² + 2as"},
+        {"name": "Projectile Range", "formula": "R = u²sin(2θ)/g"},
+        {"name": "Max Height", "formula": "H = u²sin²θ/(2g)"},
+        {"name": "Time of Flight", "formula": "T = 2usinθ/g"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Laws of Motion",
+      "topics": ["Newton's Laws", "Friction", "Circular Motion", "Banking of Roads"],
+      "theory": "Newton's First Law: Inertia. Second Law: F = ma (Force = mass × acceleration). Third Law: Action-Reaction. Friction f = μN, where μ is coefficient of friction. Centripetal force F = mv²/r. Banking angle tanθ = v²/rg.",
+      "formulas": [
+        {"name": "Newton's Second Law", "formula": "F = ma"},
+        {"name": "Friction Force", "formula": "f = μN"},
+        {"name": "Centripetal Force", "formula": "F = mv²/r"},
+        {"name": "Banking Angle", "formula": "tanθ = v²/rg"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Work, Energy & Power",
+      "topics": ["Work", "Kinetic Energy", "Potential Energy", "Power", "Conservation of Energy"],
+      "theory": "Work W = F·s (dot product). Kinetic Energy KE = ½mv². Potential Energy PE = mgh (gravitational). Power P = W/t = F·v. Work-Energy Theorem: Work done = Change in KE. For spring: PE = ½kx².",
+      "formulas": [
+        {"name": "Work", "formula": "W = F·s = Fs cosθ"},
+        {"name": "Kinetic Energy", "formula": "KE = ½mv²"},
+        {"name": "Potential Energy", "formula": "PE = mgh"},
+        {"name": "Spring Potential", "formula": "PE = ½kx²"},
+        {"name": "Power", "formula": "P = W/t = Fv"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "System of Particles & Rotational Motion",
+      "topics": ["Center of Mass", "Moment of Inertia", "Torque", "Angular Momentum"],
+      "theory": "Center of mass is the average position of mass. Moment of inertia I = Σmr². Torque τ = r × F = Iα. Angular momentum L = Iω. Conservation of angular momentum: L₁ = L₂. Parallel axis theorem: I = I_cm + Md².",
+      "formulas": [
+        {"name": "Center of Mass", "formula": "X_cm = Σmx/Σm"},
+        {"name": "Moment of Inertia", "formula": "I = Σmr²"},
+        {"name": "Torque", "formula": "τ = Iα"},
+        {"name": "Angular Momentum", "formula": "L = Iω"},
+        {"name": "Parallel Axis", "formula": "I = I_cm + Md²"}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Gravitation",
+      "topics": ["Newton's Law", "Gravitational Field", "Satellites", "Kepler's Laws"],
+      "theory": "Universal law: F = Gm₁m₂/r². Gravitational acceleration g = GM/R². Escape velocity v_esc = √(2GM/R). Orbital velocity v_orb = √(GM/r). Kepler's Third Law: T² ∝ r³. Gravitational potential U = -GMm/r.",
+      "formulas": [
+        {"name": "Gravitational Force", "formula": "F = Gm₁m₂/r²"},
+        {"name": "Acceleration due to Gravity", "formula": "g = GM/R²"},
+        {"name": "Escape Velocity", "formula": "v_esc = √(2GM/R)"},
+        {"name": "Orbital Velocity", "formula": "v_orb = √(GM/r)"},
+        {"name": "Kepler's Third Law", "formula": "T² ∝ r³"}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mechanical Properties of Solids",
+      "topics": ["Stress", "Strain", "Hooke's Law", "Young's Modulus"],
+      "theory": "Stress = Force/Area, Strain = ΔL/L. Hooke's Law: Stress ∝ Strain. Young's Modulus Y = Stress/Strain = FL/AΔL. Bulk Modulus B = -ΔP/(ΔV/V). Shear Modulus G = Shear Stress/Shear Strain. Elastic potential energy U = ½ × Stress × Strain × Volume.",
+      "formulas": [
+        {"name": "Stress", "formula": "σ = F/A"},
+        {"name": "Strain", "formula": "ε = ΔL/L"},
+        {"name": "Young's Modulus", "formula": "Y = FL/AΔL"},
+        {"name": "Bulk Modulus", "formula": "B = -VΔP/ΔV"}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Mechanical Properties of Fluids",
+      "topics": ["Pressure", "Pascal's Law", "Buoyancy", "Bernoulli's Theorem"],
+      "theory": "Pressure P = F/A. Pascal's Law: Pressure applied to enclosed fluid is transmitted equally. Archimedes' Principle: Buoyant force = weight of displaced fluid. Bernoulli's Theorem: P + ½ρv² + ρgh = constant. Equation of continuity: A₁v₁ = A₂v₂.",
+      "formulas": [
+        {"name": "Pressure", "formula": "P = F/A"},
+        {"name": "Hydrostatic Pressure", "formula": "P = ρgh"},
+        {"name": "Bernoulli's Equation", "formula": "P + ½ρv² + ρgh = constant"},
+        {"name": "Continuity Equation", "formula": "A₁v₁ = A₂v₂"}
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Thermal Properties of Matter",
+      "topics": ["Temperature", "Heat Transfer", "Expansion", "Calorimetry"],
+      "theory": "Linear expansion: ΔL = αLΔT. Volume expansion: ΔV = γVΔT. Heat Q = msΔT. Specific heat capacity c = Q/mΔT. Heat transfer: Conduction Q/t = kAΔT/L, Radiation Q = σAT⁴. Newton's Law of Cooling: dT/dt ∝ (T - T₀).",
+      "formulas": [
+        {"name": "Linear Expansion", "formula": "ΔL = αLΔT"},
+        {"name": "Volume Expansion", "formula": "ΔV = γVΔT"},
+        {"name": "Heat Transfer", "formula": "Q = msΔT"},
+        {"name": "Conduction", "formula": "Q/t = kAΔT/L"},
+        {"name": "Stefan-Boltzmann Law", "formula": "Q = σAT⁴"}
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Thermodynamics",
+      "topics": ["Laws of Thermodynamics", "Heat Engines", "Entropy", "Carnot Cycle"],
+      "theory": "Zeroth Law: Thermal equilibrium. First Law: ΔU = Q - W. Second Law: Heat cannot flow from cold to hot without work. Efficiency η = W/Q_h = 1 - Q_c/Q_h. Carnot efficiency η_max = 1 - T_c/T_h. Entropy ΔS = Q_rev/T.",
+      "formulas": [
+        {"name": "First Law", "formula": "ΔU = Q - W"},
+        {"name": "Heat Engine Efficiency", "formula": "η = 1 - Q_c/Q_h"},
+        {"name": "Carnot Efficiency", "formula": "η_max = 1 - T_c/T_h"},
+        {"name": "Entropy Change", "formula": "ΔS = Q_rev/T"}
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Kinetic Theory of Gases",
+      "topics": ["Ideal Gas Law", "RMS Speed", "Degrees of Freedom", "Mean Free Path"],
+      "theory": "Ideal gas equation: PV = nRT. Kinetic energy per molecule = ½mv_rms² = (3/2)kT. RMS speed v_rms = √(3RT/M). Average speed v_avg = √(8RT/πM). Most probable speed v_mp = √(2RT/M). Degrees of freedom f: Monatomic f=3, Diatomic f=5.",
+      "formulas": [
+        {"name": "Ideal Gas Law", "formula": "PV = nRT"},
+        {"name": "RMS Speed", "formula": "v_rms = √(3RT/M)"},
+        {"name": "Average Speed", "formula": "v_avg = √(8RT/πM)"},
+        {"name": "Mean Kinetic Energy", "formula": "KE = (3/2)nRT"}
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Oscillations",
+      "topics": ["SHM", "Simple Pendulum", "Spring Block", "Damped Oscillations"],
+      "theory": "Simple Harmonic Motion: x = A sin(ωt + φ). Velocity v = Aω cos(ωt + φ). Acceleration a = -ω²x. Time period T = 2π√(m/k) for spring. For pendulum T = 2π√(L/g). Energy in SHM: E = ½kA² = constant.",
+      "formulas": [
+        {"name": "SHM Equation", "formula": "x = A sin(ωt + φ)"},
+        {"name": "Time Period (Spring)", "formula": "T = 2π√(m/k)"},
+        {"name": "Time Period (Pendulum)", "formula": "T = 2π√(L/g)"},
+        {"name": "Total Energy", "formula": "E = ½kA²"}
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Waves",
+      "topics": ["Wave Motion", "Standing Waves", "Doppler Effect", "Beats"],
+      "theory": "Wave velocity v = fλ. Speed of transverse wave on string v = √(T/μ). Speed of sound v = √(B/ρ). Standing waves: nodes and antinodes. Fundamental frequency f₁ = v/2L for open pipe. Doppler Effect: f' = f(v ± v₀)/(v ∓ v_s). Beats frequency f_beat = |f₁ - f₂|.",
+      "formulas": [
+        {"name": "Wave Speed", "formula": "v = fλ"},
+        {"name": "String Wave Speed", "formula": "v = √(T/μ)"},
+        {"name": "Doppler Effect", "formula": "f' = f(v ± v₀)/(v ∓ v_s)"},
+        {"name": "Beat Frequency", "formula": "f_beat = |f₁ - f₂|"}
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Electrostatics",
+      "topics": ["Coulomb's Law", "Electric Field", "Potential", "Capacitors"],
+      "theory": "Coulomb's Law: F = kq₁q₂/r². Electric field E = F/q. Electric potential V = kq/r. Capacitance C = Q/V. Parallel plate capacitor C = ε₀A/d. Energy stored U = ½CV² = ½QV. Dielectric constant K increases capacitance.",
+      "formulas": [
+        {"name": "Coulomb's Law", "formula": "F = kq₁q₂/r²"},
+        {"name": "Electric Field", "formula": "E = kq/r²"},
+        {"name": "Electric Potential", "formula": "V = kq/r"},
+        {"name": "Capacitance", "formula": "C = Q/V"},
+        {"name": "Energy in Capacitor", "formula": "U = ½CV²"}
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Current Electricity",
+      "topics": ["Ohm's Law", "Resistance", "Kirchhoff's Laws", "Wheatstone Bridge"],
+      "theory": "Ohm's Law: V = IR. Resistivity R = ρL/A. Power P = VI = I²R = V²/R. Kirchhoff's Current Law: ΣI = 0. Kirchhoff's Voltage Law: ΣV = 0. Resistors in series: R_eq = R₁ + R₂ + ..., in parallel: 1/R_eq = 1/R₁ + 1/R₂ + .... Wheatstone bridge balance: R₁/R₂ = R₃/R₄.",
+      "formulas": [
+        {"name": "Ohm's Law", "formula": "V = IR"},
+        {"name": "Resistivity", "formula": "R = ρL/A"},
+        {"name": "Electric Power", "formula": "P = VI = I²R"},
+        {"name": "Series Resistance", "formula": "R_eq = R₁ + R₂"},
+        {"name": "Parallel Resistance", "formula": "1/R_eq = 1/R₁ + 1/R₂"}
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Magnetic Effects of Current",
+      "topics": ["Biot-Savart Law", "Ampere's Law", "Force on Moving Charge", "Torque on Loop"],
+      "theory": "Magnetic field due to wire B = μ₀I/2πr. Force on moving charge F = qvB sinθ. Force on wire F = ILB sinθ. Torque on loop τ = NIAB sinθ. Ampere's Law: ∮B·dl = μ₀I. Solenoid field B = μ₀nI. Cyclotron frequency f = qB/2πm.",
+      "formulas": [
+        {"name": "Magnetic Field (Wire)", "formula": "B = μ₀I/2πr"},
+        {"name": "Lorentz Force", "formula": "F = qvB sinθ"},
+        {"name": "Force on Wire", "formula": "F = ILB sinθ"},
+        {"name": "Torque on Loop", "formula": "τ = NIAB sinθ"},
+        {"name": "Solenoid Field", "formula": "B = μ₀nI"}
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Electromagnetic Induction",
+      "topics": ["Faraday's Law", "Lenz's Law", "Self Inductance", "Mutual Inductance"],
+      "theory": "Faraday's Law: ε = -dΦ/dt. Lenz's Law: Induced current opposes change. Motional EMF: ε = Blv. Self inductance ε = -L dI/dt. Energy stored in inductor U = ½LI². Mutual inductance ε₂ = -M dI₁/dt. AC generator: ε = NBAω sin(ωt).",
+      "formulas": [
+        {"name": "Faraday's Law", "formula": "ε = -dΦ/dt"},
+        {"name": "Motional EMF", "formula": "ε = Blv"},
+        {"name": "Self Inductance", "formula": "ε = -L dI/dt"},
+        {"name": "Inductor Energy", "formula": "U = ½LI²"}
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Alternating Current",
+      "topics": ["RMS Value", "Impedance", "LCR Circuit", "Resonance", "Transformer"],
+      "theory": "RMS voltage V_rms = V₀/√2. Capacitive reactance X_C = 1/ωC. Inductive reactance X_L = ωL. Impedance Z = √(R² + (X_L - X_C)²). Resonance ω₀ = 1/√(LC). Power factor cosφ = R/Z. Transformer: V_p/V_s = N_p/N_s = I_s/I_p.",
+      "formulas": [
+        {"name": "RMS Value", "formula": "V_rms = V₀/√2"},
+        {"name": "Inductive Reactance", "formula": "X_L = ωL"},
+        {"name": "Capacitive Reactance", "formula": "X_C = 1/ωC"},
+        {"name": "Impedance", "formula": "Z = √(R² + (X_L - X_C)²)"},
+        {"name": "Resonant Frequency", "formula": "ω₀ = 1/√(LC)"},
+        {"name": "Transformer", "formula": "V_p/V_s = N_p/N_s"}
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Electromagnetic Waves",
+      "topics": ["EM Spectrum", "Properties", "Displacement Current"],
+      "theory": "Maxwell's equations predicted EM waves. Speed c = 1/√(μ₀ε₀) = 3×10⁸ m/s. Displacement current I_d = ε₀ dΦ_E/dt. EM spectrum: Radio (λ>0.1m), Microwave (1mm-0.1m), Infrared (700nm-1mm), Visible (400-700nm), UV (10-400nm), X-rays (0.01-10nm), Gamma (<0.01nm). Energy of photon E = hf = hc/λ.",
+      "formulas": [
+        {"name": "Wave Speed", "formula": "c = 1/√(μ₀ε₀)"},
+        {"name": "Displacement Current", "formula": "I_d = ε₀ dΦ_E/dt"},
+        {"name": "Photon Energy", "formula": "E = hf = hc/λ"}
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Optics",
+      "topics": ["Reflection", "Refraction", "Lenses", "Interference", "Diffraction"],
+      "theory": "Mirror formula: 1/f = 1/v + 1/u. Lens formula: 1/f = 1/v - 1/u. Snell's law: n₁ sinθ₁ = n₂ sinθ₂. Critical angle sinθ_c = n₂/n₁. Power of lens P = 1/f (diopters). Young's double slit: Δy = λD/d. Diffraction minima: a sinθ = nλ. Resolving power R = λ/Δλ.",
+      "formulas": [
+        {"name": "Mirror/Lens Formula", "formula": "1/f = 1/v + 1/u"},
+        {"name": "Snell's Law", "formula": "n₁ sinθ₁ = n₂ sinθ₂"},
+        {"name": "Critical Angle", "formula": "sinθ_c = n₂/n₁"},
+        {"name": "Lens Power", "formula": "P = 1/f"},
+        {"name": "Young's Slit", "formula": "Δy = λD/d"},
+        {"name": "Diffraction Minima", "formula": "a sinθ = nλ"}
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Dual Nature of Radiation & Matter",
+      "topics": ["Photoelectric Effect", "de Broglie Wavelength", "Davisson-Germer"],
+      "theory": "Einstein photoelectric equation: KE_max = hf - φ. Work function φ = hf₀. Threshold frequency f₀ = φ/h. Stopping potential eV₀ = KE_max. de Broglie wavelength λ = h/p = h/mv. For electron accelerated by V volts: λ = h/√(2meV) = 12.27/√V Å.",
+      "formulas": [
+        {"name": "Photoelectric Effect", "formula": "KE_max = hf - φ"},
+        {"name": "de Broglie Wavelength", "formula": "λ = h/mv"},
+        {"name": "Electron Wavelength", "formula": "λ = 12.27/√V Å"}
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Atoms",
+      "topics": ["Bohr Model", "Hydrogen Spectrum", "Rutherford Model"],
+      "theory": "Bohr radius r_n = n²r₀ (r₀ = 0.529Å). Energy E_n = -13.6/n² eV. Lyman series (UV): n→1. Balmer series (Visible): n→2. Paschen (IR): n→3. Spectral lines: 1/λ = R(1/n₁² - 1/n₂²). Rydberg constant R = 1.097×10⁷ m⁻¹. Angular momentum mvr = nh/2π.",
+      "formulas": [
+        {"name": "Bohr Radius", "formula": "r_n = n² × 0.529Å"},
+        {"name": "Energy Level", "formula": "E_n = -13.6/n² eV"},
+        {"name": "Rydberg Formula", "formula": "1/λ = R(1/n₁² - 1/n₂²)"},
+        {"name": "Angular Momentum", "formula": "mvr = nh/2π"}
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Nuclei",
+      "topics": ["Radioactivity", "Nuclear Binding Energy", "Half Life", "Fission/Fusion"],
+      "theory": "Mass defect Δm = [Zm_p + Nm_n - M_nucleus]. Binding energy BE = Δm×931.5 MeV. Radioactive decay: N = N₀ e^{-λt}. Half-life T_½ = ln2/λ = 0.693/λ. Mean life τ = 1/λ. Activity A = λN. Nuclear fission splits heavy nucleus, fusion combines light nuclei.",
+      "formulas": [
+        {"name": "Mass Defect", "formula": "Δm = [Zm_p + Nm_n - M]"},
+        {"name": "Binding Energy", "formula": "BE = Δm × 931.5 MeV"},
+        {"name": "Decay Law", "formula": "N = N₀ e^{-λt}"},
+        {"name": "Half Life", "formula": "T_½ = 0.693/λ"}
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Semiconductor Electronics",
+      "topics": ["Diodes", "Transistors", "Logic Gates", "Amplifiers"],
+      "theory": "Forward bias reduces barrier, reverse bias increases barrier. Rectifier converts AC to DC. Zener diode acts as voltage regulator. Transistor α = I_C/I_E, β = I_C/I_B. OR gate: A+B, AND gate: A·B, NOT gate: Ā. NAND and NOR are universal gates. Amplifier gain A_v = V_out/V_in.",
+      "formulas": [
+        {"name": "Transistor α", "formula": "α = I_C/I_E"},
+        {"name": "Transistor β", "formula": "β = I_C/I_B"},
+        {"name": "Relation", "formula": "β = α/(1-α)"}
+      ]
+    }
+  ]
+}

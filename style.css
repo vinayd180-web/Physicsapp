@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+/* Header */
+.header {
+    background: #0f3460;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.header p {
+    color: #e94560;
+    font-size: 14px;
+}
+
+/* Chapter Cards */
+.chapter-card {
+    background: #16213e;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-left: 4px solid #e94560;
+}
+
+.chapter-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(233,69,96,0.3);
+}
+
+.chapter-card h2 {
+    color: #e94560;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.chapter-card .topics {
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.topic-tag {
+    display: inline-block;
+    background: #0f3460;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px 5px 0 0;
+    font-size: 12px;
+}
+
+/* Detail View */
+.back-btn {
+    background: #0f3460;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+    transition: background 0.2s;
+}
+
+.back-btn:hover {
+    background: #e94560;
+}
+
+.theory-box {
+    background: #0f3460;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.formula {
+    background: #1a1a2e;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px 0;
+    font-family: monospace;
+    border: 1px solid #e94560;
+}
+
+/* Quiz Styles */
+.quiz-question {
+    background: #16213e;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.question-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.option {
+    background: #0f3460;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.option:hover {
+    background: #e94560;
+}
+
+.option.selected {
+    background: #e94560;
+}
+
+.next-btn, .submit-btn {
+    background: #e94560;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.result {
+    text-align: center;
+    padding: 30px;
+}
+
+.score {
+    font-size: 48px;
+    color: #e94560;
+    margin: 20px 0;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background: #0f3460;
+    height: 8px;
+    border-radius: 4px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background: #e94560;
+    height: 100%;
+    transition: width 0.3s;
+}
+
+.loader {
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+}
+
+/* Formulas Page */
+.formula-card {
+    background: #16213e;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.formula-name {
+    color: #e94560;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .chapter-card h2 {
+        font-size: 18px;
+    }
+}

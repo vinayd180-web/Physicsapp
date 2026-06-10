@@ -1,0 +1,46 @@
+{
+  "chapter_1": [
+    {
+      "question": "The SI unit of length is?",
+      "options": ["Centimeter", "Meter", "Kilometer", "Millimeter"],
+      "answer": 1,
+      "explanation": "Meter is the SI base unit for length measurement."
+    },
+    {
+      "question": "Which of the following is a scalar quantity?",
+      "options": ["Velocity", "Force", "Mass", "Acceleration"],
+      "answer": 2,
+      "explanation": "Mass has only magnitude, no direction. Others are vectors."
+    }
+  ],
+  "chapter_2": [
+    {
+      "question": "A car accelerates from rest at 2 m/s² for 5 seconds. Final velocity is?",
+      "options": ["5 m/s", "10 m/s", "15 m/s", "20 m/s"],
+      "answer": 1,
+      "explanation": "Using v = u + at = 0 + 2×5 = 10 m/s"
+    },
+    {
+      "question": "Area under velocity-time graph gives?",
+      "options": ["Velocity", "Acceleration", "Displacement", "Force"],
+      "answer": 2,
+      "explanation": "Displacement = ∫v dt, which is area under v-t curve."
+    }
+  ],
+  "chapter_3": [
+    {
+      "question": "Newton's Second Law gives relation between?",
+      "options": ["F and a", "F and v", "F and s", "F and t"],
+      "answer": 0,
+      "explanation": "F = ma, so Force is proportional to acceleration."
+    }
+  ],
+  "chapter_4": [
+    {
+      "question": "A 2 kg mass has velocity 3 m/s. Its kinetic energy is?",
+      "options": ["3 J", "6 J", "9 J", "12 J"],
+      "answer": 2,
+      "explanation": "KE = ½mv² = ½ × 2 × 3² = 9 J"
+    }
+  ]
+}

@@ -10,7 +10,7 @@ let score = 0;
 async function loadData() {
     try {
         const [chaptersRes, questionsRes] = await Promise.all([
-            fetch('chapters.json'),
+            fetch('Chapters.json'),
             fetch('questions.json')
         ]);
         
